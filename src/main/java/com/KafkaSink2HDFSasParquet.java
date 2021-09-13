@@ -10,7 +10,7 @@ import org.apache.flink.streaming.connectors.kafka.FlinkKafkaConsumer;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class WordCountKafkaInStdOut2 {
+public class KafkaSink2HDFSasParquet {
 
     public static String brockers = "172.16.0.17:9092";
     public static String inputTopic = "test1";

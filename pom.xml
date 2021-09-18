@@ -30,7 +30,7 @@ under the License.
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<flink.version>1.11.4</flink.version>
+		<flink.version>1.11.1</flink.version>
 		<java.version>1.8</java.version>
 		<scala.binary.version>2.12</scala.binary.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
@@ -76,6 +76,18 @@ under the License.
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-parquet_${scala.binary.version}</artifactId>
             <version>${flink.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-parquet_${scala.binary.version}</artifactId>
+            <version>1.11.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro</artifactId>
+            <version>1.10.2</version>
         </dependency>
 
         <!-- Add connector dependencies here. They must be in the default scope (compile). -->

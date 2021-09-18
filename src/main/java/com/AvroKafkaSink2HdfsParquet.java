@@ -15,7 +15,7 @@ import java.util.Properties;
 import org.apache.flink.formats.parquet.avro.ParquetAvroWriters;
 
 
-public class AvroKafkaSink2HDFSasParquet {
+public class AvroKafkaSink2HdfsParquet {
 
     public static final String USER_SCHEMA = "{\n" +
             "    \"type\":\"record\",\n" +
